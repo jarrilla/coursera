@@ -1,0 +1,40 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments (Poetry handles venvs automatically)
+# You don't need to track the `.venv` folder if Poetry created it.
+.venv/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+*.egg
+*.whl
+
+# Poetry lock file (optional; generally you should include this)
+# poetry.lock
+
+# Pytest cache and other testing artifacts
+.pytest_cache/
+.coverage
+htmlcov/
+*.cover
+*.py,cover
+.cache
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# PyInstaller
+*.spec
+
+# macOS files
+.DS_Store
+
+# Editor / IDE configurations
+.vscode/
+.idea/
+*.swp
